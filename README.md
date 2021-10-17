@@ -6,6 +6,15 @@ Nome em analise (muito em breve irei atualizar)
 🚀 Projeto para aula de web 2 onde irei criar um site pessoal para esposições de um fotografo.
 </p>
 
+<p>
+link para o prototipo do layout no figma:
+  https://www.figma.com/file/QpLxeHKQP9CmsQVuR1XzRb/Balmung-project-layout?node-id=0%3A1
+</p>
+
+<p>
+outro link para a navegação do projeto:
+  https://www.figma.com/proto/QpLxeHKQP9CmsQVuR1XzRb/Balmung-project-layout?node-id=2%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A2
+<p>
 
 # Checkist
 
