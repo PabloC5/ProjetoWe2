@@ -1,0 +1,14 @@
+body {
+    margin: 0 auto;
+ }
+
+ #logo{
+     /* display: block; */
+    text-align: center;
+    /* padding-left: 50px; */
+ }
+ .text-center .img-responsive {
+    margin: 0 auto;
+}
+
+ 
