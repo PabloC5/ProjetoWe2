@@ -3,12 +3,51 @@ body {
  }
 
  #logo{
-     /* display: block; */
     text-align: center;
-    /* padding-left: 50px; */
  }
+
+
  .text-center .img-responsive {
     margin: 0 auto;
 }
 
- 
+.divNavBar{
+    /* border: 1px solid red; */
+    background-color: #C4C4C4;
+}
+
+ul{
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+
+/* li{
+    margin-left: 5px;
+} */
+
+/* .nav-item{
+    padding-left: 15px;
+} */
+
+.itemTeste{
+    padding-right: 10px;
+}
+
+a{
+    color: black!important;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* .swiper {
+    width: 1050px;
+    height: 471px;
+} */
+
+.swiper {
+    width: 85%;
+    height: 471px;
+  }

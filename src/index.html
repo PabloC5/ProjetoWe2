@@ -9,16 +9,75 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/estilo.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
         <title>Home</title>
     </head>
     <body>
-        <header class="teste">
+        <header>
+            <!-- inicio logo -->
             <div id="logo" class="container-fluid">
                 <a href="#">
                     <img class="img-responsive" src="img/logo-final.png" alt="logo">
                 </a>
             </div>
-            
+            <!-- inicio do menu -->
+            <div class="container-fluid divNavBar">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a href="">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Trabalhos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Paisagens</a>
+                            <a class="dropdown-item" href="#">Cães</a>
+                            <a class="dropdown-item" href="#">Carros</a>
+                        </div>
+                    </li>
+                    <li class="nav-item itemTeste">
+                        <a href="">Sobre mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- fim do menu -->
         </header>
+        <main>
+            <!-- inicio do swiper -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="img/imagen1-swiper.png" alt="slide" >
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/Paisagens-Wallpaper-4.jpg" />
+                </div>
+                <div class="swiper-slide">Slide 3</div>
+                ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </main>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="scripts/swiper.js"></script>
+
     </body>
 </html>
