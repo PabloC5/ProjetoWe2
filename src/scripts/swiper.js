@@ -16,22 +16,13 @@ const swiper = new Swiper('.swiper', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
+  centeredSlides: true,
+
 
   // And if we need scrollbar
 //   scrollbar: {
 //     el: '.swiper-scrollbar',
 //   },
+
 });
 
-// var swiper = new Swiper(".mySwiper", {
-//     spaceBetween: 30,
-//     effect: "fade",
-//     navigation: {
-//       nextEl: ".swiper-button-next",
-//       prevEl: ".swiper-button-prev",
-//     },
-//     pagination: {
-//       el: ".swiper-pagination",
-//       clickable: true,
-//     },
-//   });
