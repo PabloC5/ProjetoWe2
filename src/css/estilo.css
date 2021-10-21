@@ -79,4 +79,18 @@ a:hover{
     text-align: center;
     text-indent: 3em;
 }
+
+
+
+.tamanhoImg{
+    width: 239px;
+    height: 239px;
+}
+
+.card-deck{
+    /* width: 90%; */
+    padding-left: 45px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
   
