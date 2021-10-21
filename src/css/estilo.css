@@ -94,3 +94,24 @@ a:hover{
     padding-bottom: 30px;
 }
   
+/* .anuncioTest{
+    text-align: center;
+    display: block;
+} */
+
+/* .testeAnuncio{
+    display: none;
+} */
+
+.btn{
+    padding: 0!important;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 15px!important;
+}
+
+.formatButton{
+    text-align: right;
+    padding-right: 5px;
+    /* padding-bottom: 5px; */
+}
