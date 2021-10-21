@@ -92,6 +92,7 @@ a:hover{
     padding-left: 45px;
     padding-right: 40px;
     padding-bottom: 30px;
+    margin-right: 0!important;
 }
   
 /* .anuncioTest{
@@ -113,5 +114,21 @@ a:hover{
 .formatButton{
     text-align: right;
     padding-right: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 5em;
+    
     /* padding-bottom: 5px; */
+}
+
+footer{
+    /* border: 2px solid red; */
+    height: 200px;
+    background-color: #C4C4C4;
+}
+
+.rodaPe{
+    text-align: center;
+    padding-top: 10px;
 }
