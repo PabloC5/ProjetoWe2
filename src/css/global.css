@@ -1,0 +1,52 @@
+body {
+    margin: 0 auto;
+}
+
+#logo{
+text-align: center;
+}
+
+
+.text-center .img-responsive {
+margin: 0 auto;
+}
+
+.divNavBar{
+    /* border: 1px solid red; */
+    background-color: #C4C4C4;
+}
+
+ul{
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+
+.itemTeste{
+    padding-right: 10px;
+}
+
+a{
+    color: black!important;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* .swiper {
+    width: 1050px;
+    height: 471px;
+} */
+
+
+footer{
+    /* border: 2px solid red; */
+    height: 200px;
+    background-color: #C4C4C4;
+}
+
+.rodaPe{
+    text-align: center;
+    padding-top: 10px;
+}
