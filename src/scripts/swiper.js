@@ -17,12 +17,19 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.swiper-button-prev',
   },
   centeredSlides: true,
-
-
-  // And if we need scrollbar
-//   scrollbar: {
-//     el: '.swiper-scrollbar',
-//   },
-
+  
+  // autoplay:{
+  //   delay: 1000,
+  //   dis
+  // },
+  
 });
+
+// setInterval(swiper, 500)
+
+
+
+
+
+
 

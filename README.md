@@ -34,7 +34,7 @@ Funções
 - [ ] Função anônima com argumento
 - [ ] Função anônima sem argumento
 - [ ] Função anônima com retorno
-- [ ] Função auto-executável
+- [x] Função auto-executável
 - [x] Função com nome
 - [ ] Função aninhada/local - declarar uma função dentro de outra
 - [x] Passagem de uma função como parâmetro
@@ -112,7 +112,7 @@ jQuery
 
 Web Storage
 
-- [ ] LocalStorage ou SessionStorage
+- [x] LocalStorage ou SessionStorage
 - [ ] Leitura e escrita de dados simples
 - [ ] Leitura e escrita de JSON
 

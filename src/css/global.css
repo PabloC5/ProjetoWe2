@@ -2,8 +2,11 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    margin: 0 auto;
+
+
+h1{
+    color: var(--title-color);
+
 }
 
 #logo{
@@ -48,9 +51,93 @@ footer{
     /* border: 2px solid red; */
     height: 200px;
     background-color: #C4C4C4;
+    /* background-color: var(--footer-color); */
+    /* background-color: var(--header-color); */
+
 }
 
 .rodaPe{
     text-align: center;
     padding-top: 10px;
 }
+
+
+
+/* estilos para o dark mode */
+
+:root {
+  --bg-color: ##fff;
+  --font-color: #222;
+  --title-color: #0067e6;
+  --title-background: #000000;
+  --footer-color: #C4C4C4:
+  --main-border: 1px solid rgba(255, 255, 255, 0.4);
+  --main-bg: rgba(255, 255, 255, 0.4);
+}
+
+[data-theme="dark"] {
+  --bg-color: #161D30;
+  --font-color: #efefef;
+  --title-color: #0067e6;
+  --title-background: #222;
+  --header-color: #232749;
+  --main-border: 1px solid rgba(255, 255, 255, 0.2);
+  /* --main-bg: rgba(25, 25, 25, 0.4); */
+  --main-bg: #161D30;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: var(--font-color);
+  background-color: var(--bg-color);
+}
+
+main {
+  border: var(--main-border);
+  background: var(--main-bg);
+}
+
+section {
+  background: var(--title-background);
+
+  /* OTHER SYLING */
+}
+
+h1 {
+  color: var(--title-color);
+
+}
+
+label{
+  color: var(--font-color);
+
+}
+
+h2 {
+  color: #918a95;
+}
+
+h5{
+  color: var(--font-color);
+    
+}
+h3{
+    color: var(--font-color);      
+}
+
+main p{
+  color: var(--font-color);
+
+}
+
+.card-body{
+  background: var(--main-bg);
+
+}
+
+/* TOGGLE  */
+
