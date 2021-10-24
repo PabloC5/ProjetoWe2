@@ -21,13 +21,13 @@ outro link para a navegação do projeto:
 Caixas de Diálogo
 
 - [ ] prompt
-- [ ] alert
+- [x] alert
 - [ ] confirm
 
 Temporizadores
 
 - [ ] setInterval
-- [ ] setTimeout
+- [x] setTimeout
 
 Funções
 
@@ -35,10 +35,10 @@ Funções
 - [ ] Função anônima sem argumento
 - [ ] Função anônima com retorno
 - [ ] Função auto-executável
-- [ ] Função com nome
+- [x] Função com nome
 - [ ] Função aninhada/local - declarar uma função dentro de outra
-- [ ] Passagem de uma função como parâmetro
-- [ ] Função Flecha - Arrow Function
+- [x] Passagem de uma função como parâmetro
+- [x] Função Flecha - Arrow Function
 
 Eventos
 
@@ -55,7 +55,7 @@ Acesso aos elementos DOM do HTML
 - [ ] Via getElementByID()
 - [ ] Via getElementsByName()
 - [ ] Via getElementsByTagName()
-- [ ] Via seletores CSS usados na função querySelector() ou querySelectorAll()
+- [x] Via seletores CSS usados na função querySelector() ou querySelectorAll()
 
 Tratadores de Evento
 
