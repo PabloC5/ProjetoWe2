@@ -113,7 +113,7 @@
     border-radius: 50%;
   }
   input:checked + .slider {
-    background-color: #fec150;
+    background-color: #0067e6;
   }
   input:checked + .slider:before {
     transform: translateX(26px);
