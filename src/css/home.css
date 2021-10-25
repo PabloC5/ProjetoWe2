@@ -45,7 +45,7 @@
     height: 239px;
 }
 
-.card-deck{
+.card-deck, .card-deck2{
     /* width: 90%; */
     padding-left: 45px;
     padding-right: 40px;
@@ -70,6 +70,7 @@
     
     /* padding-bottom: 5px; */
 }
+
 
 /* css do botao de troca de tema */
 
