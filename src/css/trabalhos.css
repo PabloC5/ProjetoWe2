@@ -8,3 +8,55 @@
     text-align: center;
     text-indent: 3em;
 }
+
+.imagenSwiper1{
+    width: 100%;
+    height: 100%;
+    background: url('../img/img-paisagens/pg1-trab.jpg');
+    background-size: cover;
+}
+
+.imagenSwiper2{
+      width: 100%;
+      height: 100%;
+      background: url('../img/img-paisagens/pg2-trab.jpg');
+      background-size: cover;
+}
+
+.imagenSwiper3{
+    width: 100%;
+    height: 100%;
+    background: url('../img/img-paisagens/pg3-trab.jpg');
+    background-size: cover;
+}
+
+
+.imagenSwiper1-carros{
+    width: 100%;
+    height: 100%;
+    background: url('../img/img-carros/car1.jpg');
+    background-size: cover;
+}
+
+.imagenSwiper2-carros{
+      width: 100%;
+      height: 100%;
+      background: url('../img/img-carros/car2Mc.jpg');
+      background-size: cover;
+}
+
+.imagenSwiper3-carros{
+    width: 100%;
+    height: 100%;
+    background: url('../img/img-carros/car3Mustang.jpg');
+    background-size: cover;
+}
+
+.swiper {
+    width: 85%;
+    height: 471px;
+}
+
+.swiper{
+    margin-top: 5px;
+}

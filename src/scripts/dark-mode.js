@@ -3,22 +3,12 @@
 const themeToggle = document.querySelector(
     '.theme-switch input[type="checkbox"]'
   );
+
+  const logoFinal = document.querySelector('.logoTeste')
   
   // Get the current theme from local storage
   const currentTheme = localStorage.getItem("theme");
   
-  // If the current local storage item can be found
-  // let teste = function(){
-  //   if (currentTheme) {
-  //     // Set the body data-theme attribute to match the local storage item
-  //     document.documentElement.setAttribute("data-theme", currentTheme);
-    
-  //     // If the current theme is dark, check the theme toggle
-  //     if (currentTheme === "dark") {
-  //       themeToggle.checked = true;
-  //     }
-  //   }
-  // };
   (function(){
     if (currentTheme) {
       document.documentElement.setAttribute("data-theme", currentTheme);
@@ -33,9 +23,11 @@ const themeToggle = document.querySelector(
     if (e.target.checked) {
       document.documentElement.setAttribute("data-theme", "dark");
       localStorage.setItem("theme", "dark");
+      localStorage.setItem(logoFinal.src = "./img/logo-branco.png", "theme")
     } else {
       document.documentElement.setAttribute("data-theme", "light");
       localStorage.setItem("theme", "light");
+      localStorage.setItem(logoFinal.src = "./img/logo-final.png", "theme")
     }
   }
   

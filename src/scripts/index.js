@@ -4,21 +4,21 @@ const testeCard2 = document.querySelector('.card-deck2')
 
 let novoCard = [{
     titulo: "teste2",
-    imagem: "lindos",
+    imagem: src="img/foto-paisagem3 1.jpg",
     descricao: "salve4",
     data: "o anderson não gosta de JAVA",
     
 },
     {
-        titulo: "teste",
-        imagem: "salve carai",
+        titulo: "testePablo",
+        imagem: src="img/carro2 1.jpg",
         descricao: "testa essa coisa",
         data: "aooooooo",
     },
 
     {
-        titulo: "teste",
-        imagem: "salve carai",
+        titulo: "teste3",
+        imagem: src="./img/cachorro2 1.jpg",
         descricao: "testa essa coisa",
         data: "aooooooo",
     }
@@ -41,7 +41,7 @@ function gerarCard(array, deck) {
         const cardDiv3 = document.createElement("div")
         
         cardH5.innerHTML = array[index].titulo
-        cardImg.setAttribute("scr", array[index].imagem)
+        cardImg.setAttribute("src", array[index].imagem)
         cardP.innerHTML = array[index].descricao
         cardSmall.innerHTML = array[index].data
         

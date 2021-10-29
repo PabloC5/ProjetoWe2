@@ -1,0 +1,23 @@
+{
+  "name": "balmungproject",
+  "version": "1.0.0",
+  "description": "projeto web2 portifolio fotografias",
+  "main": "index.js",
+  "dependencies": {
+    "unsplash-js": "^7.0.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloC5/ProjetoWe2.git"
+  },
+  "author": "pablo-correia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloC5/ProjetoWe2/issues"
+  },
+  "homepage": "https://github.com/PabloC5/ProjetoWe2#readme"
+}
