@@ -7,8 +7,7 @@ let novoCard = [{
     imagem: src="img/foto-paisagem3 1.jpg",
     descricao: "salve4",
     data: "o anderson não gosta de JAVA",
-    
-},
+    },
     {
         titulo: "testePablo",
         imagem: src="img/carro2 1.jpg",

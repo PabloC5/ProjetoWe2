@@ -12,9 +12,12 @@ const themeToggle = document.querySelector(
   (function(){
     if (currentTheme) {
       document.documentElement.setAttribute("data-theme", currentTheme);
+      localStorage.setItem(logoFinal.src = "./img/logo-final.png", "dark")
     
       if (currentTheme === "dark") {
         themeToggle.checked = true;
+        localStorage.setItem(logoFinal.src = "./img/logo-branco.png", "light")
+
       }
     }
   })();
@@ -23,11 +26,11 @@ const themeToggle = document.querySelector(
     if (e.target.checked) {
       document.documentElement.setAttribute("data-theme", "dark");
       localStorage.setItem("theme", "dark");
-      localStorage.setItem(logoFinal.src = "./img/logo-branco.png", "theme")
+      localStorage.setItem(logoFinal.src = "./img/logo-branco.png", "dark")
     } else {
       document.documentElement.setAttribute("data-theme", "light");
       localStorage.setItem("theme", "light");
-      localStorage.setItem(logoFinal.src = "./img/logo-final.png", "theme")
+      localStorage.setItem(logoFinal.src = "./img/logo-final.png", "light")
     }
   }
   
