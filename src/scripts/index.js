@@ -1,36 +1,63 @@
 const testeCard = document.querySelector('.card-deck')
 const testeCard2 = document.querySelector('.card-deck2')
+let nomeVisit = prompt("Ola qual o seu nome?")
 
+alert(`ola ${nomeVisit} espero que goste do balmung project, aproveite!!!`)
 
+// criação de objetos para gerar os cards apartir do javaScript
 let novoCard = [{
-    titulo: "teste2",
-    imagem: src="img/foto-paisagem3 1.jpg",
-    descricao: "salve4",
-    data: "o anderson não gosta de JAVA",
+        titulo: "Paisagem",
+        imagem: src="img/foto-paisagem3.jpg",
+        descricao: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        data: "Last updated 3 mins ago",
     },
     {
-        titulo: "testePablo",
-        imagem: src="img/carro2 1.jpg",
-        descricao: "testa essa coisa",
-        data: "aooooooo",
+        titulo: "Carro",
+        imagem: src="img/carro2.jpg",
+        descricao: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem    Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        data: "Last updated 3 mins ago",
     },
 
     {
-        titulo: "teste3",
-        imagem: src="./img/cachorro2 1.jpg",
-        descricao: "testa essa coisa",
-        data: "aooooooo",
+        titulo: "Cachorro",
+        imagem: src="./img/cachorro2.jpg",
+        descricao: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        data: "Last updated 5 mins ago",
     }
 ]
 
 
+let novoCard2 = [{
+        titulo: "Paisagem",
+        imagem: src="img/foto-paisagem2.jpg",
+        descricao: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        data: "o anderson não gosta de JAVA",
+    },
+    {
+        titulo: "Carro",
+        imagem: src="img/carro1.jpg",
+        descricao: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        data: "aooooooo",
+    },
+
+    {
+        titulo: "Cachorro",
+        imagem: src="./img/cachorro1.jpg",
+        descricao: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        data: "aooooooo",
+    }
+]
+
+// função que ira que é chamada pelo evento onload sempre que a pagina recarregar
 window.onload = function(){
     gerarCard(novoCard, testeCard)
-    gerarCard(novoCard, testeCard2)
+    gerarCard(novoCard2, testeCard2)
 }
 
+// função que irei percorrer objetos e então irei criar os elementos la no html
 function gerarCard(array, deck) {
     for (let index = 0; index < array.length; index++) {
+        // cada const é uma tag html que crio aqui no js e depois passo para index.html
         const cardDiv1 = document.createElement("div")
         const cardImg = document.createElement("img")
         const cardH5 = document.createElement("h5")
@@ -52,7 +79,6 @@ function gerarCard(array, deck) {
         cardDiv1.appendChild(cardDiv2)
         cardDiv1.appendChild(cardDiv3)
 
-        // taskSection.className = 'task-card__task-section';
         cardDiv1.className = 'card' 
         cardImg.className = 'card-img-top tamanhoImg' 
         cardDiv2.className = 'card-body'
