@@ -25,7 +25,7 @@ let novoCard = [{
         data: "Last updated 5 mins ago",
     }
 ]
-
+// teste comentario
 
 let novoCard2 = [{
         titulo: "Paisagem",
