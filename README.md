@@ -1,6 +1,6 @@
 
 <h1 align="center">
-Nome em analise (muito em breve irei atualizar)
+  BALMUNG PROJECT
 </h1>
 <p>
 🚀 Projeto para aula de web 2 onde irei criar um site pessoal para esposições de um fotografo.
