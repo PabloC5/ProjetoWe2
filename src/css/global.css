@@ -76,6 +76,8 @@ footer{
   --main-bg: rgba(255, 255, 255, 0.4);
 }
 
+/* atributo data-theme quando marcado como dark la no JS vai alterar as variaveis 
+    padroes que o site usa */
 [data-theme="dark"] {
   --bg-color: #161D30;
   --font-color: #efefef;
@@ -153,7 +155,7 @@ main p{
   
   /* padding-bottom: 5px; */
 }
-
+/* css do boão */
 
 .theme-switch-wrapper {
   display: flex;
