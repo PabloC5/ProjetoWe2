@@ -156,10 +156,13 @@ main p{
   /* padding-bottom: 5px; */
 }
 /* css do boão */
-/* ------------teste */
 .theme-switch-wrapper {
   display: flex;
   align-items: center;
+}
+
+.html{
+  border: 0ch;
 }
 .theme-switch-wrapper em {
   margin-left: 10px;
