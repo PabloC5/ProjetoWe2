@@ -1,11 +1,10 @@
 const testeCard = document.querySelector('.card-deck')
 const testeCard2 = document.querySelector('.card-deck2')
-let nomeVisit = prompt("Ola qual o seu nome?")
 
-alert(`ola ${nomeVisit} espero que goste do balmung project, aproveite!!!`)
 
 // criação de objetos para gerar os cards apartir do javaScript
-let novoCard = [{
+let novoCard = [
+    {
         titulo: "Paisagem",
         imagem: src="img/foto-paisagem3.jpg",
         descricao: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -90,3 +89,23 @@ function gerarCard(array, deck) {
     
     }
 }
+
+
+let nameVisit = function(){
+    let visitor = {}
+
+    visitor.nome = prompt("Ola qual o seu nome?")
+
+    function nomeAviso(){
+        return `ola ${visitor.nome} espero que goste do balmung project, aproveite!!!`
+    }
+
+    visitor.nomeNoAviso = nomeAviso
+    
+    return visitor
+}
+
+let visitorSite = nameVisit()
+ 
+
+alert(visitorSite.nomeNoAviso())
