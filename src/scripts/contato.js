@@ -1,12 +1,17 @@
 
 var up = document.getElementById("InputName");
 
-function myFunction() {
+// função para deixar a primeira letra do nome em maiusculo com onblur
+function nameUp() {
     up.value = up.value[0].toUpperCase() +  up.value.substr(1)
 }
 
 
-let myButton = document.querySelector('.btn')
+let myButton = document.getElementsByTagName('button')[0]
+
+
+// console.log(myButton)
+
 
 myButton.onclick = function(event) {
     event = arguments[0]
