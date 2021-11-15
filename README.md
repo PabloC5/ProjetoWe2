@@ -47,13 +47,13 @@ Eventos
 - [ ] Evento de teclado - usar charCode ou keyCode
 - [x] Eventos de formulário - onfocus e onblur
 - [x] Imprimir alguma propriedade do objeto event recebido como parâmetro
-- [ ] Propagação de eventos no modelo bolha (usar target e currentTarget, ou seja, disparar o evento em um elemento filho e capturar em um elemento pai)
+- [x] Propagação de eventos no modelo bolha (usar target e currentTarget, ou seja, disparar o evento em um elemento filho e capturar em um elemento pai)
 
 Acesso aos elementos DOM do HTML
 
 - [ ] Via referência DOM pelo id do elemento HTML
 - [x] Via getElementByID()
-- [ ] Via getElementsByName()
+- [x] Via getElementsByName()
 - [x] Via getElementsByTagName()
 - [x] Via seletores CSS usados na função querySelector() ou querySelectorAll()
 
