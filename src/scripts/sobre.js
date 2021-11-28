@@ -1,13 +1,15 @@
-const buttonAnuncio = document.querySelector('.botao')
-const anuncioClose = document.querySelector('.anuncio')
+const buttonAnuncio = document.querySelector('.botao');
+const anuncioClose = document.querySelector('.anuncio');
 
 let disableFunction = () => {
-    anuncioClose.classList.add("desativa")
-    buttonAnuncio.classList.add("desativa")
-}
+    'use strict';
+    anuncioClose.classList.add('desativa');
+    buttonAnuncio.classList.add('desativa');
+};
 
-
+let temp;
 function fechar() {
-    alert("clique no ok e espere três segundos")
-    temp = setTimeout(disableFunction, 3000)
+    'use strict';
+    alert('clique no ok e espere três segundos');
+    temp = setTimeout(disableFunction, 3000);
 }
