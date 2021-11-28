@@ -4,6 +4,7 @@
   "description": "projeto web2 portifolio fotografias",
   "main": "index.js",
   "dependencies": {
+    "jshint": "^2.13.1",
     "unsplash-js": "^7.0.15"
   },
   "devDependencies": {},
