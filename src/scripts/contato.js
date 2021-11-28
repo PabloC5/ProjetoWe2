@@ -14,7 +14,7 @@ let myButton = document.getElementsByTagName('button')[0]
 
 
 myButton.onclick = function(event) {
-    event = arguments[0]
+    // event = arguments[0]
     alert("Caso queira saber se voce segurou o ctrl enquanto apertava o botão a resposta é: " 
             + event.ctrlKey)
 }

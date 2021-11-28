@@ -7,7 +7,6 @@ const alternaTema = document.querySelector(
 // console.log(document.getElementsByName("test")[0])
 const logoFinal = document.getElementsByName("logoF")[0]
 
-
 // "pego" o tema atual do navegador e guardo no local storage com o getItem
 const temaAtual = localStorage.getItem("theme");
   
