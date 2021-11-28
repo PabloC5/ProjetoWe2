@@ -9,7 +9,7 @@ const swiper = new Swiper('.swiper', {
   },
 
   // Navigation arrows
-    effect: "fade",
+    effect: 'fade',
     spaceBetween: 30,
 
   navigation: {
