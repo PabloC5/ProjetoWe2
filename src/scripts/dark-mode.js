@@ -5,21 +5,22 @@ const alternaTema = document.querySelector(
 
 // const logoFinal = document.querySelector('.logoTeste')
 // console.log(document.getElementsByName("test")[0])
-const logoFinal = document.getElementsByName("logoF")[0]
+const logoFinal = document.getElementsByName('logoF')[0];
 
 // "pego" o tema atual do navegador e guardo no local storage com o getItem
-const temaAtual = localStorage.getItem("theme");
+const temaAtual = localStorage.getItem('theme');
   
 (function(){
+  'use strict';
   if (temaAtual) {
     // Defina o atributo body data-theme para corresponder ao item de armazenamento local 
-    document.documentElement.setAttribute("data-theme", temaAtual);
-    localStorage.setItem(logoFinal.src = "./img/logo-final.png", "dark")
+    document.documentElement.setAttribute('data-theme', temaAtual);
+    localStorage.setItem(logoFinal.src = './img/logo-final.png', 'dark');
   
     // Se o tema atual for dark, verifique a alternância do tema
-    if (temaAtual === "dark") {
+    if (temaAtual === 'dark') {
       alternaTema.checked = true;
-      localStorage.setItem(logoFinal.src = "./img/logo-branco.png", "light")
+      localStorage.setItem(logoFinal.src = './img/logo-branco.png', 'light');
 
     }
   }
@@ -27,16 +28,17 @@ const temaAtual = localStorage.getItem("theme");
   
 function switchTheme(e) {
   // target para que todo o html capture o evento
+  'use strict';
   if (e.target.checked) {
-    document.documentElement.setAttribute("data-theme", "dark");
-    localStorage.setItem("theme", "dark");
-    localStorage.setItem(logoFinal.src = "./img/logo-branco.png", "dark")
+    document.documentElement.setAttribute('data-theme', 'dark');
+    localStorage.setItem('theme', 'dark');
+    localStorage.setItem(logoFinal.src = './img/logo-branco.png', 'dark');
   } else {
-    document.documentElement.setAttribute("data-theme", "light");
-    localStorage.setItem("theme", "light");
-    localStorage.setItem(logoFinal.src = "./img/logo-final.png", "light")
+    document.documentElement.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+    localStorage.setItem(logoFinal.src = './img/logo-final.png', 'light');
   }
 }
   // adicionando o evento change ao botão do darkMode
-alternaTema.addEventListener("change", switchTheme, false);
+alternaTema.addEventListener('change', switchTheme, false);
   
