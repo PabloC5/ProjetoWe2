@@ -97,11 +97,11 @@
         <main>
             <h3>Contato</h3>
             <!-- formulario -->
-          <form action="" id="contato">
+          <form action="" id="contato" onsubmit="return validaRadio()">
             <div class="container teste">
                 <div class="form-group">
                     <label for="InputName">Nome</label>
-                    <input type="text" class="form-control" id="InputName" onblur="nameUp()" aria-describedby="emailHelp" placeholder="Nome" autofocus>
+                    <input type="text" class="form-control" id="InputName"  onblur="validaCampos()" aria-describedby="emailHelp" placeholder="Nome" autofocus>
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Endereço de email</label>
@@ -115,7 +115,19 @@
                     <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
+
+                <!-- teste radio -->
+                <h5>Deseja receber avisos?</h5>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Sim</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Não</label>
+                </div>
                 <button type="submit" class="btn btn-primary marginButton">Enviar</button>
+                <!-- teste radio -->
             </div>  
           </form>
         </main>
