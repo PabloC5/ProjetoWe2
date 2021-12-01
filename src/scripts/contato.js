@@ -52,7 +52,7 @@ function validaCampos() {
 
 function validaRadio() {
     let isCheck = false;
-    let elementos = document.getElementsByName("inlineRadioOptions")
+    let elementos = document.querySelectorAll('[name=inlineRadioOptions]')
     // elementos.forEach(element => {
     //     console.log(element)
 
@@ -62,32 +62,24 @@ function validaRadio() {
         if (elementos[i].checked) {
             isCheck = true;
             return true
-        }else{
-            alert("Por favor marcar as opções de sim ou não!!!")
-            return false
         }
+    }
+    if(!isCheck){
+        alert("Por favor marcar as opções de sim ou não!!!")
+            return false
     }
 }
 
 var inputNome = document.getElementById('inputEmail1');
 
-// validaEmail.addEventListener("blur", function(event) {
-//     if (validaEmail.validity.typeMismatch) {
-//         validaEmail.setCustomValidity("teste")
-//     }else{
-//         validaEmail.setCustomValidity("")
-
+// inputNome.addEventListener("invalid", function (event) {
+//     if (inputNome.validity.typeMismatch) {
+//         inputNome.setCustomValidity("favor inserir um email valido com @");
+//     } 
+//     else {
+//         inputNome.setCustomValidity("");
 //     }
-// })
-
-inputNome.addEventListener("invalid", function (event) {
-    if (inputNome.validity.typeMismatch) {
-        inputNome.setCustomValidity("favor inserir um email valido com @");
-    } 
-    else {
-        inputNome.setCustomValidity("");
-    }
-});
+// });
 
 // console.log(validaEmail);
 // console.log(document.forms[0].inlineRadio[0])
