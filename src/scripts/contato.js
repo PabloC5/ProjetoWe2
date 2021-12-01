@@ -3,7 +3,7 @@ var up = document.getElementById('InputName');
 
 let formInit = document.getElementById('contato');
 
-let inputName1 = document.getElementById('InputName');
+let inputName1 = document.forms[0].inputNameV
 
 let radioValid = document.getElementById('inlineRadio');
 
@@ -63,7 +63,7 @@ var inputNome = document.getElementById('inputEmail1');
 // });
 
 // console.log(validaEmail);
-// console.log(document.forms[0].inlineRadio[0])
+// console.log(document.forms[0].inputNameV)
 // console.log(document.getElementsByName("inlineRadioOptions"))
 
 
