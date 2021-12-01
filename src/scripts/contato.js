@@ -61,21 +61,35 @@ function validaRadio() {
     for (const i in elementos) {
         if (elementos[i].checked) {
             isCheck = true;
-            alert("deu certo")
             return true
         }else{
-            alert("ERRADO")
+            alert("Por favor marcar as opções de sim ou não!!!")
             return false
         }
     }
-    // if (!elementos) {
-    //     // isCheck = false;
-    //         alert("ERRADO")
-    //         return false
-    // }
-    
 }
 
+var inputNome = document.getElementById('inputEmail1');
+
+// validaEmail.addEventListener("blur", function(event) {
+//     if (validaEmail.validity.typeMismatch) {
+//         validaEmail.setCustomValidity("teste")
+//     }else{
+//         validaEmail.setCustomValidity("")
+
+//     }
+// })
+
+inputNome.addEventListener("invalid", function (event) {
+    if (inputNome.validity.typeMismatch) {
+        inputNome.setCustomValidity("favor inserir um email valido com @");
+    } 
+    else {
+        inputNome.setCustomValidity("");
+    }
+});
+
+// console.log(validaEmail);
 // console.log(document.forms[0].inlineRadio[0])
 // console.log(document.getElementsByName("inlineRadioOptions"))
 
