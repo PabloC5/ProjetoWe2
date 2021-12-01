@@ -7,12 +7,6 @@ let inputName1 = document.getElementById('InputName');
 
 let radioValid = document.getElementById('inlineRadio');
 
-// função para deixar a primeira letra do nome em maiusculo com onblur
-// function nameUp() {
-//     'use strict';
-//     up.value = up.value[0].toUpperCase() +  up.value.substr(1);
-// }
-
 // console.log("teste: ",inputName1.value)
 let myButton = document.getElementsByTagName('button')[0];
 
@@ -20,35 +14,22 @@ let myButton = document.getElementsByTagName('button')[0];
 // console.log(myButton)
 
 
-// myButton.onclick = function(event) {
-//     // event = arguments[0]
-//     'use strict';
-//     alert('Caso queira saber se voce segurou o ctrl enquanto apertava o botão a resposta é: ' + 
-//             event.ctrlKey);
-// };
+myButton.onclick = function(event) {
+    // event = arguments[0]
+    'use strict';
+    alert('Caso queira saber se voce segurou o ctrl enquanto apertava o botão a resposta é: ' + 
+            event.ctrlKey);
+};
 
 function validaCampos() {
     if (inputName1.value === "") {
         inputName1.classList.add('erros')
     }else {
+        // mudança de local do upperCase
         up.value = up.value[0].toUpperCase() +  up.value.substr(1);
         inputName1.classList.remove('erros')
     }
 }
-// let iChecked = false
-// formInit.onsubmit() = () => {
-//     // let radios = document.getElementById('')
-    
-//     for (const e of radioValid) {
-//         if (e.checked) {
-//             iChecked = true
-//         }
-//     }
-//     if (!iChecked) {
-//         alert("teste")
-//         return false
-//     }
-// }
 
 function validaRadio() {
     let isCheck = false;
