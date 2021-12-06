@@ -3,7 +3,7 @@ var up = document.getElementById('InputName');
 
 let formInit = document.getElementById('contato');
 
-let inputName1 = document.forms[0].inputNameV
+let inputName1 = document.forms[0].inputNameV;
 
 let radioValid = document.getElementById('inlineRadio');
 
@@ -22,18 +22,20 @@ myButton.onclick = function(event) {
 };
 
 function validaCampos() {
-    if (inputName1.value === "") {
-        inputName1.classList.add('erros')
+    'use strict';
+    if (inputName1.value === '') {
+        inputName1.classList.add('erros');
     }else {
         // mudança de local do upperCase
         up.value = up.value[0].toUpperCase() +  up.value.substr(1);
-        inputName1.classList.remove('erros')
+        inputName1.classList.remove('erros');
     }
 }
 
 function validaRadio() {
+    'use strict';
     let isCheck = false;
-    let elementos = document.querySelectorAll('[name=inlineRadioOptions]')
+    let elementos = document.querySelectorAll('[name=inlineRadioOptions]');
     // elementos.forEach(element => {
     //     console.log(element)
 
@@ -42,25 +44,26 @@ function validaRadio() {
     for (const i in elementos) {
         if (elementos[i].checked) {
             isCheck = true;
-            return true
+            return true;
         }
     }
     if(!isCheck){
-        alert("Por favor marcar as opções de sim ou não!!!")
-            return false
+        alert('Por favor marcar as opções de sim ou não!!!');
+            return false;
     }
 }
 
 var inputNome = document.getElementById('inputEmail1');
 
-// inputNome.addEventListener("invalid", function (event) {
-//     if (inputNome.validity.typeMismatch) {
-//         inputNome.setCustomValidity("favor inserir um email valido com @");
-//     } 
-//     else {
-//         inputNome.setCustomValidity("");
-//     }
-// });
+inputNome.addEventListener('invalid', function (event) {
+    'use strict';
+    if (inputNome.validity.typeMismatch) {
+        inputNome.setCustomValidity('favor inserir um email valido com @');
+    } 
+    else {
+        inputNome.setCustomValidity('');
+    }
+});
 
 // console.log(validaEmail);
 // console.log(document.forms[0].inputNameV)

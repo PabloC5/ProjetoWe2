@@ -24,7 +24,7 @@ const temaAtual = localStorage.getItem('theme');
 
     }
   }
-})();
+})();//Anonymous Closures
   
 function switchTheme(e) {
   // target para que todo o html capture o evento

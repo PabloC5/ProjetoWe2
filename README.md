@@ -82,7 +82,7 @@ Qualidade do código
 - [x] Usar um Style Guide - apresentar o uso de pelo menos 10 regras do style escolhido (sugerido AirBnb)
 - [x] Usar um lint - mostrar a correção de pelo menos 5 problemas informados pelo lint (sugerido JSHint - [x] Usar o arquivo .jshintrc disponível no moodle)
 - [x] Usar strict mode
-- [ ] Usar Module Pattern
+- [x] Usar Module Pattern
 - [ ] Usar pasta assets e subpastas resources e libraries para organizar o código
 - [x] Usar let ou const ao invés de var
 - [x] Nomes de arquivos minúsculos e separados por hífen (dashed-case)
@@ -95,7 +95,7 @@ Formulário
 - [x] Usar os atributos de validação dos inputs
 - [x] Usar expressões regulares
 - [x] Ler e escrever em elementos input com a propriedade value
-- [ ] Alterar o conteúdo de elementos div ou p com a propriedade innerHTML ou textContent
+- [x] Alterar o conteúdo de elementos div ou p com a propriedade innerHTML ou textContent
 - [x] Manipulação de elemento de listagem, como checkbox, radio ou select
 - [x] Acesso aos elementos de um formulário via hierarquia (caminho) de objetos, ou seja, array forms e elements
 
