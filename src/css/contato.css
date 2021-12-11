@@ -32,6 +32,10 @@ h3{
     border:2px solid rgb(96, 221, 152) ;
 }
 
+.cellPhones:valid{
+    border:2px solid rgb(96, 221, 152) ;
+}
+
 input:invalid{
     border:2px solid indianred !important;
 }

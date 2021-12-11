@@ -13,13 +13,21 @@ let myButton = document.getElementsByTagName('button')[0];
 
 // console.log(myButton)
 
-
-myButton.onclick = function(event) {
-    // event = arguments[0]
-    'use strict';
-    window.alert('Caso queira saber se voce segurou o ctrl enquanto apertava o botão a resposta é: ' + 
-            event.ctrlKey);
-};
+$(document).ready(function(){
+    $('.cellPhones').mask('(00) 00000-0000');
+    $(myButton).on('click',function(event) {
+        // event = arguments[0]
+        'use strict';
+        window.alert('Caso queira saber se voce segurou o ctrl enquanto apertava o botão a resposta é: ' + 
+                event.ctrlKey);
+    })
+})
+// myButton.onclick = function(event) {
+//     // event = arguments[0]
+//     'use strict';
+//     window.alert('Caso queira saber se voce segurou o ctrl enquanto apertava o botão a resposta é: ' + 
+//             event.ctrlKey);
+// };
 
 function validaCampos() {
     'use strict';
