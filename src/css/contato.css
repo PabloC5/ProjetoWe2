@@ -21,10 +21,14 @@ h3{
 }
 
 .erros{
-    border:2px solid rgb(216, 12, 12) !important;
+    border:2px solid rgb(255, 0, 0) !important;
 }
 
-input:valid{
+#inputEmail1:valid{
+    border:2px solid rgb(96, 221, 152) ;
+}
+
+#inputNameV:valid{
     border:2px solid rgb(96, 221, 152) ;
 }
 

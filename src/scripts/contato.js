@@ -1,13 +1,13 @@
 
-var up = document.getElementById('InputName');
+var up = document.getElementById('subject');
 
 let formInit = document.getElementById('contato');
 
-let inputName1 = document.forms[0].inputNameV;
+let inputSubject = document.forms[0].subject;
 
 let radioValid = document.getElementById('inlineRadio');
 
-// console.log("teste: ",inputName1.value)
+// console.log("teste: ",inputSubject.value)
 let myButton = document.getElementsByTagName('button')[0];
 
 
@@ -17,19 +17,23 @@ let myButton = document.getElementsByTagName('button')[0];
 myButton.onclick = function(event) {
     // event = arguments[0]
     'use strict';
-    alert('Caso queira saber se voce segurou o ctrl enquanto apertava o botão a resposta é: ' + 
+    window.alert('Caso queira saber se voce segurou o ctrl enquanto apertava o botão a resposta é: ' + 
             event.ctrlKey);
 };
 
 function validaCampos() {
     'use strict';
-    if (inputName1.value === '') {
-        inputName1.classList.add('erros');
+    if (inputSubject.value === '') {
+        $(inputSubject).addClass('erros');
     }else {
         // mudança de local do upperCase
-        up.value = up.value[0].toUpperCase() +  up.value.substr(1);
-        inputName1.classList.remove('erros');
+        $(inputSubject).removeClass('erros');
     }
+}
+
+function upC() {
+    'use strict';
+    up.value = up.value[0].toUpperCase() +  up.value.substr(1);
 }
 
 function validaRadio() {

@@ -1,5 +1,5 @@
 const testeCard = document.querySelector('.card-deck');
-const testeCard2 = document.querySelector('.card-deck2');
+// const testeCard2 = document.querySelector('.card-deck2');
 
 
 // criação de objetos para gerar os cards apartir do javaScript
@@ -86,9 +86,9 @@ function gerarCard(array, deck) {
         const cardDiv2 = document.createElement('div');
         const cardDiv3 = document.createElement('div');
         
-        cardH5.innerHTML = array[index].titulo;
+        $(cardH5).html(array[index].titulo);
         cardImg.setAttribute('src', array[index].imagem);
-        cardP.innerHTML = array[index].descricao;
+        $(cardP).html(array[index].descricao);
         cardSmall.innerHTML = array[index].data;
         
         cardDiv3.appendChild(cardSmall);
@@ -107,18 +107,21 @@ function gerarCard(array, deck) {
         cardDiv3.className = 'card-footer';
         cardSmall.className = 'text-muted';
 
-        deck.appendChild(cardDiv1);
-    
+        $(deck).append(cardDiv1);
     }
 }
 
 // função que ira que é chamada pelo evento onload sempre que a pagina recarregar
-
-window.onload = function(){
+$(document).ready(function(){
     'use strict';
     gerarCard(novoCard, testeCard);
-    gerarCard(novoCard2, testeCard2);
-};
+    gerarCard(novoCard2, $('.card-deck2'));
+})
+// window.onload = function(){
+//     'use strict';
+//     gerarCard(novoCard, testeCard);
+//     gerarCard(novoCard2, testeCard2);
+// }
 
 
 let nameVisit = function(){
