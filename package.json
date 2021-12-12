@@ -8,9 +8,12 @@
     "jshint": "^2.13.1",
     "unsplash-js": "^7.0.15"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
