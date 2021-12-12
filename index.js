@@ -15,7 +15,7 @@ router.get('/contato', function (req, res) {
     res.sendFile(path.join(__dirname+'/src/contato.html'));
 })
 
-router.get('/trabalhoP', function (req, res) {
+router.get('/trabalhoPaisagem', function (req, res) {
     res.sendFile(path.join(__dirname+'/src/trab-paisagens.html'));
 })
 
