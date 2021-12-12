@@ -15,12 +15,12 @@ const temaAtual = localStorage.getItem('theme');
   if (temaAtual) {
     // Defina o atributo body data-theme para corresponder ao item de armazenamento local 
     document.documentElement.setAttribute('data-theme', temaAtual);
-    localStorage.setItem(logoFinal.src = './img/logo-final.png', 'dark');
+    localStorage.setItem(logoFinal.src = './logo-final.png', 'dark');
   
     // Se o tema atual for dark, verifique a alternância do tema
     if (temaAtual === 'dark') {
       alternaTema.checked = true;
-      localStorage.setItem(logoFinal.src = './img/logo-branco.png', 'light');
+      localStorage.setItem(logoFinal.src = './logo-branco.png', 'light');
 
     }
   }
@@ -32,11 +32,11 @@ function switchTheme(e) {
   if (e.target.checked) {
     document.documentElement.setAttribute('data-theme', 'dark');
     localStorage.setItem('theme', 'dark');
-    localStorage.setItem(logoFinal.src = './img/logo-branco.png', 'dark');
+    localStorage.setItem(logoFinal.src = './logo-branco.png', 'dark');
   } else {
     document.documentElement.setAttribute('data-theme', 'light');
     localStorage.setItem('theme', 'light');
-    localStorage.setItem(logoFinal.src = './img/logo-final.png', 'light');
+    localStorage.setItem(logoFinal.src = './logo-final.png', 'light');
   }
 }
   // adicionando o evento change ao botão do darkMode

@@ -8,7 +8,7 @@ let novoCard = [
     {
         /*jshint multistr: true */
         titulo: 'Paisagem',
-        imagem: src='img/foto-paisagem3.jpg',
+        imagem: src='foto-paisagem3.jpg',
         descricao: 'Lorem Ipsum is simply dummy text of \
                     the printing and typesetting industry. Lorem Ipsum has been \
                     the industrys standard dummy text \
@@ -18,7 +18,7 @@ let novoCard = [
     },
     {
         titulo: 'Carro',
-        imagem: src='img/carro2.jpg',
+        imagem: src='carro2.jpg',
         descricao: 'Lorem Ipsum is simply dummy text of \
                     the printing and typesetting industry. Lorem Ipsum has been \
                     the industrys standard dummy text \
@@ -29,7 +29,7 @@ let novoCard = [
 
     {
         titulo: 'Cachorro',
-        imagem: src='./img/cachorro2.jpg',
+        imagem: src='./cachorro2.jpg',
         descricao: 'Lorem Ipsum is simply dummy text of \
                     the printing and typesetting industry. Lorem Ipsum has been \
                     the industrys standard dummy text \
@@ -41,7 +41,7 @@ let novoCard = [
 
 let novoCard2 = [{
         titulo: 'Paisagem',
-        imagem: src='img/foto-paisagem2.jpg',
+        imagem: src='foto-paisagem2.jpg',
         descricao: 'Lorem Ipsum is simply dummy text of \
                     the printing and typesetting industry. Lorem Ipsum has been \
                     the industrys standard dummy text \
@@ -51,7 +51,7 @@ let novoCard2 = [{
     },
     {
         titulo: 'Carro',
-        imagem: src='img/carro1.jpg',
+        imagem: src='carro1.jpg',
         descricao: 'Lorem Ipsum is simply dummy text of \
                     the printing and typesetting industry. Lorem Ipsum has been \
                     the industrys standard dummy text \
@@ -62,7 +62,7 @@ let novoCard2 = [{
 
     {
         titulo: 'Cachorro',
-        imagem: src='./img/cachorro1.jpg',
+        imagem: src='./cachorro1.jpg',
         descricao: 'Lorem Ipsum is simply dummy text of \
                     the printing and typesetting industry. Lorem Ipsum has been \
                     the industrys standard dummy text \
