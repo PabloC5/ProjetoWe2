@@ -23,6 +23,10 @@ router.get('/trabalhoCar', function (req, res) {
     res.sendFile(path.join(__dirname+'/src/trab-carros.html'));
 })
 
+router.get('/fotos', function (req, res) {
+    res.sendFile(path.join(__dirname+'/src/fotos-random.html'));
+})
+
 app.use('/', router);
 app.use(express.static(__dirname + '/src/css'));
 app.use(express.static(__dirname + '/src/scripts'));
