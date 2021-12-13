@@ -44,14 +44,14 @@ Eventos
 
 - [x] Evento de carregamento do documento - onload
 - [ ] Evento de movimento do mouse
-- [ ] Evento de teclado - usar charCode ou keyCode
+- [x] Evento de teclado - usar charCode ou keyCode
 - [x] Eventos de formulário - onfocus e onblur
 - [x] Imprimir alguma propriedade do objeto event recebido como parâmetro
 - [x] Propagação de eventos no modelo bolha (usar target e currentTarget, ou seja, disparar o evento em um elemento filho e capturar em um elemento pai)
 
 Acesso aos elementos DOM do HTML
 
-- [ ] Via referência DOM pelo id do elemento HTML
+- [x] Via referência DOM pelo id do elemento HTML
 - [x] Via getElementById()
 - [x] Via getElementsByName()
 - [x] Via getElementsByTagName()
@@ -68,7 +68,7 @@ Objetos Nativos
 
 - [ ] Usar pelo menos 3 métodos de manipulação de array
 - [x] Usar laço de repetição (for..in ou for..of ou forEach)
-- [ ] Usar pelo menos 3 métodos para manipulação de string
+- [x] Usar pelo menos 3 métodos para manipulação de string
 - [x] String Template
 
 Objetos
@@ -102,9 +102,9 @@ Formulário
 jQuery
 
 - [x] Uso de seletores CSS - id, classe e tag
-- [ ] Uso de seletores hierárquicos estáticos - ancestral/descendente, pai/filho, anterior/próximo
+- [x] Uso de seletores hierárquicos estáticos - ancestral/descendente, pai/filho, anterior/próximo
 - [ ] Uso de seletores hierárquicos dinâmicos - parent/children/next
-- [ ] Efeitos fade ou slide
+- [x] Efeitos fade ou slide
 - [x] Especificar o tratador de algum evento via jQuery
 - [x] Manipulação do CSS via função css() e addClass()/removeClass()
 - [x] Manipulação do conteúdo de um input e div usando jQuery

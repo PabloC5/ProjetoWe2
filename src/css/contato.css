@@ -39,3 +39,7 @@ h3{
 input:invalid{
     border:2px solid indianred !important;
 }
+
+.desativa{
+    display: none;
+}

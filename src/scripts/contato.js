@@ -15,19 +15,17 @@ let myButton = document.getElementsByTagName('button')[0];
 
 $(document).ready(function(){
     $('.cellPhones').mask('(00) 00000-0000');
-    $(myButton).on('click',function(event) {
-        // event = arguments[0]
-        'use strict';
-        window.alert('Caso queira saber se voce segurou o ctrl enquanto apertava o botão a resposta é: ' + 
-                event.ctrlKey);
+    $('.cellPhones').keydown(function(event) {
+        if (event.key === 'Enter') {
+            $(myButton).on('click',function(event) {
+                // event = arguments[0]
+                'use strict';
+                window.alert('Caso queira saber se voce segurou o ctrl enquanto apertava o botão a resposta é: ' + 
+                        event.ctrlKey);
+            })
+        }
     })
 })
-// myButton.onclick = function(event) {
-//     // event = arguments[0]
-//     'use strict';
-//     window.alert('Caso queira saber se voce segurou o ctrl enquanto apertava o botão a resposta é: ' + 
-//             event.ctrlKey);
-// };
 
 function validaCampos() {
     'use strict';
@@ -76,6 +74,29 @@ inputNome.addEventListener('invalid', function (event) {
         inputNome.setCustomValidity('');
     }
 });
+
+const buttonAnuncio = document.querySelector('.botao');
+const anuncioClose = document.querySelector('.anuncio2');
+
+let disableFunction = () => {
+    'use strict';
+    anuncioClose.classList.add('desativa');
+    buttonAnuncio.classList.add('desativa');
+};
+
+let temp;
+function fechar() {
+    'use strict';
+    alert('clique no ok e espere três segundos');
+    temp = setTimeout(disableFunction, 3000);
+}
+
+
+// $(document).ready(function(){
+//     $(".botao1").click(function(){
+//       $("#anuncio").fadeOut();
+//     });
+//   });
 
 // console.log(validaEmail);
 // console.log(document.forms[0].inputNameV)

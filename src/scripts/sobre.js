@@ -1,15 +1,7 @@
-const buttonAnuncio = document.querySelector('.botao');
-const anuncioClose = document.querySelector('.anuncio');
+$(document).ready(function(){
+    $(".botao").click(function(){
+      $(".anuncio").fadeOut();
+    });
+})
 
-let disableFunction = () => {
-    'use strict';
-    anuncioClose.classList.add('desativa');
-    buttonAnuncio.classList.add('desativa');
-};
-
-let temp;
-function fechar() {
-    'use strict';
-    alert('clique no ok e espere três segundos');
-    temp = setTimeout(disableFunction, 3000);
-}
+$('div>h2').css({color: 'white'})
