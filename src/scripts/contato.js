@@ -92,11 +92,6 @@ function fechar() {
 }
 
 
-// $(document).ready(function(){
-//     $(".botao1").click(function(){
-//       $("#anuncio").fadeOut();
-//     });
-//   });
 
 // console.log(validaEmail);
 // console.log(document.forms[0].inputNameV)

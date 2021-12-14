@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-        <title>Paisagens</title>
+        <title>Carros</title>
     </head>
     <body>
         <header>
@@ -71,7 +71,7 @@
             <div class="container-fluid divNavBar">
                 <ul class="nav nav-pills">
                     <li class="nav-item">
-                        <a href="index.html">Home</a>
+                        <a href="/">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -79,14 +79,14 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="/trabalhoPaisagem">Paisagens</a>
-                            <a class="dropdown-item" href="trabalhoCar">Carros</a>
+                            <a class="dropdown-item" href="/trabalhoCar">Carros</a>
                         </div>
                     </li>
                     <li class="nav-item itemTeste">
-                        <a href="sobre.html">Sobre mim</a>
+                        <a href="/sobre">Sobre mim</a>
                     </li>
                     <li class="nav-item">
-                        <a href="contato.html">Contato</a>
+                        <a href="/contato">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -127,20 +127,16 @@
             </div>
 
             <h2 id="title">Minhas fotos com paisagens</h2>
-            <p id="paragrafh">
+            <p class="paragrafh">
                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
             </p>
-            <p id="paragrafh">
+            <p class="paragrafh">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
             <hr>
-
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Comentarios</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            
+            <!-- comentarios -->
+            <div id="disqus_thread"></div>            
         </main>
 
         <footer>
@@ -166,7 +162,7 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
+        <script id="dsq-count-scr" src="//balmung-project-1.disqus.com/count.js" async></script>
         <script src="swiper.js"></script>
         <script src="dark-mode.js"></script>
         <script src="trabalhos.js"></script>
