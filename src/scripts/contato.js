@@ -21,9 +21,6 @@ $(document).ready(function(){
     })
 })
 
-// window.alert('Caso queira saber se voce segurou o ctrl enquanto apertava o botão a resposta é: ' + 
-//                         event.ctrlKey);
-
 function validaCampos() {
     'use strict';
     if (inputSubject.value === '') {
@@ -43,10 +40,6 @@ function validaRadio() {
     'use strict';
     let isCheck = false;
     let elementos = document.querySelectorAll('[name=inlineRadioOptions]');
-    // elementos.forEach(element => {
-    //     console.log(element)
-
-    // });
 
     for (const i in elementos) {
         if (elementos[i].checked) {
